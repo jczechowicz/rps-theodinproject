@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAME: Rock Paper Scissors</title>
+    <link rel="icon" type="image/x-icon" href="./assets/rock-paper-scissors.png">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <div class="intro">
+        <h1>ROCK vs PAPER vs SCISSORS</h1>
+        <h3>Let the eternal duel take place once again!</h3>
+    </div>
+    <div class="score-board"> 
+        <div id="human" class="score">HUM</div>
+        <div id="computer" class="score">COM</div>
+        <span id="human-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div id="result"></div>   
+    <div class="options">
+        <button value="rock">
+            <img src="./assets/stone.png" alt="rock">
+            <p>Rock</p>
+        </button>
+        <button value="paper">
+            <img src="./assets/paper.png" alt="paper">
+            <p>Paper</p>
+        </button>
+        <button value="scissors">
+            <img src="./assets/scissors.png">
+            <p>Scissors</p>
+        </button>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
