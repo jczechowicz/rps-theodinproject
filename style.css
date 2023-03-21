@@ -1,0 +1,115 @@
+html {
+    font-size: 10px;  
+    background: url('./assets/background.jpg') bottom center;
+    background-size: cover;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.intro {
+    background-color: #ff4800;
+    margin-top: 100px;
+    padding: 25px;
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 10px solid black;
+}
+
+h1 {
+    font-family: monospace;
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 80%;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+}
+
+h3 {
+    text-align: center;
+    font-size: 15px;
+    color:darkgray;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 23px;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.score {
+    background: #631103;
+    color: darkgray;
+    font-size: 15px;
+    padding: 2px 10px;
+    border: 1px solid white;
+}
+
+#result {
+    margin: 20px auto;
+    background-color: white;
+    text-align: center;
+    width: 100px;
+    color: black;
+    font-size: 10px;
+    padding: 15px 20px;
+    position: relative;
+}
+
+#human {
+    position: absolute;
+    top: 17px;
+    left: -25px;
+}
+
+#computer {
+    position: absolute;
+    top: 17px;
+    right: -25px;
+}
+
+.options {
+    display: flex;
+    flex: 1;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    border-radius: 25px;
+    transition: all .07s;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
+
+
+p {
+    display: block;
+    font-size: 2rem;
+}
